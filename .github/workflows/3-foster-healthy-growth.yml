@@ -79,7 +79,7 @@ jobs:
             }
 
             // Check that file exists
-            if (!fs.existsSync('prepare-to-collaborate/CODE_OF_CONDUCT.md')) {
+            if (!fs.existsSync('add-issue-templates/CODE_OF_CONDUCT.md')) {
               result.passed = false;
               result.message = 'File is missing.';
             }
